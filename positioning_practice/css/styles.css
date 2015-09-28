@@ -1,0 +1,95 @@
+body{
+	margin-left: 200px;
+	margin-right: 200px;
+	font-family: 'Arial';
+	background-color: #EF0107;
+}
+
+p{
+	margin-left: 11px;
+}
+
+h2{
+	font-family: 'Oswald';
+}
+
+img{
+	width: 100px;
+	height:100px;
+	margin-top: 10px;
+}
+
+.dancer{
+	width: 225px;
+	display: inline-block;
+	margin-right: 3px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #00005C;
+	background-color: #ffffff;
+}
+
+.sec{
+	font-family: 'Oswald';
+	text-align: center;
+	background-color: #102050;
+	border-width: 2px
+	border-color: #000000;
+	display: inline-block;
+	width: 150px;
+	height:50px;
+	padding-right: 4px;
+}
+
+.person{
+	position: relative;
+}
+
+.pic{
+	position: absolute;
+	left:0px;
+	width: 20%;
+}
+
+.bio{
+	margin-left: 150px;
+	height: 80px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	min-width: 545px;
+}
+
+.top{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	background-color: #102050;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.title{
+	width: 949px;
+	height: 200px;
+}
+
+a:-webkit-any-link{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a#link{
+	color: #000000;
+	text-decoration: underline;
+}
+
+
+
+
