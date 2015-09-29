@@ -1,0 +1,125 @@
+body{
+	margin: 10px 100px ;
+	background-color: #ECE9E9;
+	font-family: "Roboto Condensed", "calibri",  Arial;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 1349px;
+	height: 50px;
+	background-color: #000;
+	z-index: 1;
+}
+
+h1{
+	font-family: "Oswald";
+	position: absolute;
+	top: 0;
+	left: 500px;
+	margin-top: 0;
+	margin-left: 30px;
+	font-size: 33px;
+	letter-spacing: 2px;
+	width: 300px;
+	color: #fff;
+}
+
+h2{
+	font-family: "Oswald";
+	border-bottom: 2px solid #000;
+}
+
+h3{
+	width: 300px;
+	margin-top: 8px;
+	margin-left: 200px;
+	font-family: "Oswald";
+}
+
+h4{
+	width: 32px;
+	margin-bottom: -9px;
+	margin-left: 200px;
+	font-family: "Open Sans Condensed";
+}
+
+p{
+	font-size: 17px;
+}
+ol{
+	width: 350px;
+	margin-left: 185px;
+}
+
+img{
+	
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+}
+
+audio{
+	margin-top: 10px;
+}
+
+img.back{
+	width: 1149px;
+	height: 600px;
+	margin-top: 40px;
+}
+
+img.social{
+	margin-top: 8px;
+	float: right;
+	display: inline-block;
+	width:35px;
+	height: 35px;
+}
+
+.alpic{
+display: block;
+float:left;
+margin: 22px;
+}
+
+.albums{
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	width: 570px;
+}
+
+.top{
+	height: 190px;
+}
+
+#chrisOL, #exclusiveOL, #graffitiOL, #fameOL, #fortuneOL, #xOL{
+	display: none;
+	padding: 10px;
+    width: 600px;
+    background-color: #000000;
+    color: #A9A7A7;
+    border-radius: 25px;
+}
+
+#chrisOL.show, #exclusiveOL.show, #graffitiOL.show, #fameOL.show, #fortuneOL.show, #xOL.show{
+	display:block;
+	position: fixed;
+	top: 175px;
+	left: 400px;
+	z-index: 1;
+}
+
+#cButton, #eButton, #gButton, #fButton, #foButton, #xButton{
+	display: block;
+	float:left;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+}
+
+
+
