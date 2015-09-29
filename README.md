@@ -1,6 +1,6 @@
 # webDevProjects
-Here are all the projects I have worked on for Intro to Web Development
-Assignment 1: hello_world
-Assignment 2: practice_webpage            9/15
-Assignment 3: positioning_practice        9/22
-Assignment 4: media_queries               9/29
+<p>Here are all the projects I have worked on for Intro to Web Development</p>
+<p><b>Assignment 1:</b> hello_world</p>
+<p><b>Assignment 2:</b> practice_webpage            9/15</p>
+<p><b>Assignment 3:</b> positioning_practice        9/22</p>
+<p><b>Assignment 4:</b> media_queries               9/29</p>
