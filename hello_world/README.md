@@ -1,2 +1,2 @@
 # hello_world
-Test webpage
+<p><b>Assignment:</em>Make a simple "Hello World!" HTML page and upload it to your server.<p>
