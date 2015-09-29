@@ -1,3 +1,4 @@
+# media_queries
 <p><b>Assignment:</b> Build a web page using HTML, CSS and JS we’ve been learning so far. </p>
 <p>Include:</p>
 <ul>
