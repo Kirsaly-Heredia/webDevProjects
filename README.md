@@ -4,4 +4,4 @@
 <p><b>Assignment 2:</b> practice_webpage 9/15</p>
 <p><b>Assignment 3:</b> positioning_practice 9/22</p>
 <p><b>Assignment 4:</b> js_practice 9/29</p>
-<p><b>Final Project:</b> hip_op_central</p>
+<p><b>Final Project:</b> hip_hop_central</p>
