@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<!--breadcrumbs-->
+<p class="breadcrumbs">Dancer &gt <span>{{page.crew-name}}</span></p>
+
+
+<!--crew info-->
+<article class="post">
+	<header class="post-header">
+		<h1>{{page.crew-name}}</h1>
+	</header>
+
+	<div class="post-content" itemprop="articleBody">
+		<img src=" {{page.crew-image }}" alt="">
+		<p>{{content}}</p>
+	</div>
+</article>
+
+<!--core members-->
+<aside>
+	<h3>Core Members</h3>
+	<div>
+		{% for member in site.data.dancers %}
+		  {% if member.crew == page.crew-name %}
+		  <h5>
+		    <a class="" href="{{ member.name | prepend: site.baseurl }}">{{ member.name }}</a>
+		  </h5>
+		  {% endif %}
+		{% endfor %}
+	</div>
+</aside>
+
+
+<!--upcoming appearances-->
+<aside>
+	<h3>Upcoming Appearances</h3>
+	<img src="{{page.event-image}}" alt="">
+	<div>button</div>
+	<div>button</div>
+</aside>	
+
+
+<!--social media-->
+<aside>
+	<img src="{{site.youtube}}" alt="">
+	<p>{{page.youtube}}</p>
+
+	<img src="{{site.facebook}}" alt="">
+	<p>{{page.facebook}}</p>
+
+	<img src="{{site.twitter}}" alt="">
+	<p>{{page.twitter}}</p>
+
+	<img src="{{site.instagram}}" alt="">
+	<p>{{page.instagram}}</p>
+
+	<img src="{{page.crew.logo}}" alt="">
+	<p>{{page.crew.url}}</p>
+
+</aside>

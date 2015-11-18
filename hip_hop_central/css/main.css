@@ -9,66 +9,101 @@ font-family: 'Raleway', sans-serif;
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-	/*font-family: 'Avenir 55 Roman';*/
-	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
-}
-h1 {
-	font-size: 2em;
-}
-h2 {
-	font-size: 1.75em;
-}
-.post h2 {
-	text-transform: uppercase;
-}
-h3 {
-	font-size: 1.5em;
-}
-h4 {
-	font-size: 1.25em;
-}
-p {
-	font-size: 1em;
-}
-img {
-	width: 90%;
-}
-
-li{
-	display: inline-block;
-	color: #fff;
-}
-span{
-	color: #387747;
+body{
+	background-color: #BCBEC0;
 }
 
 header{
-	background-color: #231F20;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #231F20 
 }
 
-img.slide{
-	width: 100%
-}
-img.logo{
-	width: 150px;
-	height: 50px ;
+h1{
+	margin: 0 auto;
 }
 
-img.fd {
+ul{
+	position: absolute;
+	top: 40px;
+	left: 225px;
+	color: #FFF;
+	width: 500px;
+}
+
+li{	
+	display: inline;
+	position: absolute;
+	margin: 10px;
+	font-size: 20px;
+}
+
+.logo{
+	position:absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 200px;
+}
+
+.search{
+	margin-left:950px;
+	margin-right: 0px;
+	top: 150px;
+	left: 500px;
 	width: 250px;
-	height:250px;
+	height: 30px;
+	background-color: #BCBEC0;
+	border-radius: 10px;	
 }
 
-img.news {
+.mag {
+    position: absolute;
+    top: 10px;
+    right: -45px;
+    width: 25px;
+    height: 27px;
+    background-color: #387747;
+    border-radius: 10px;
+}
+
+.magpic{
+	top: 150px;
+	left: 720px;
+	height:30px;
+	width: 35px;
+}
+
+.slide{
+	position: relative;
+	top: 100px;
+}
+
+.slidenav{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	border-radius: 50px;
+	background-color: #FFF;
+}
+
+img.news{
 	height: 150px;
 	width: 250px;
 }
 
-.container{
-	background-color: #BCBEC0;
+footer{
+	background-color: #231F20;
+	height: 100px;
 }
+
+footer p{
+	color: #FFF;
+}
+
 
 /* ==========================================================================
    Media Queries

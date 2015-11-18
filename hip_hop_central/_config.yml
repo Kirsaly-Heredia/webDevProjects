@@ -12,6 +12,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Hip-Hop Central description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-
+youtube: "/img/logos/yt.png" #youtube icon path
+facebook: "/img/logos/fb.png" #facebook icon path
+twitter: "/img/logos/twit.png" #twitter icon path
+instagram: "/img/logos/insta.png" #instagram icon path
 # Build settings
 markdown: kramdown
