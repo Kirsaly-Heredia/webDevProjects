@@ -1,0 +1,118 @@
+- crew: I.aM.mE
+  image: 
+    url: /img/crews/ime.jpg
+    alt: 
+  event-image:
+  crew-logo: "/img/logos/ime.png"
+  youtube: "IaMmECrew"
+  facebook: "IaMmE Crew"
+  twitter: "@IaMmECrew"
+  instagram: "@iammecrew"
+  crew-url: "www.iammecrew.com"
+  members:
+
+- crew: Jabbawockeez
+  image: 
+    url: /img/crews/jabba.jpg
+    alt: 
+  crew-logo: "/img/logos/jabba.png"
+  youtube: "JABBAWOCKEEZ OFFICIAL"
+  facebook: "Jabbawockeez"
+  twitter: "@JABBAWOCKEEZ"
+  instagram: "@jabbawockeez"
+  crew-url: "www.jbwkz.com"
+  event-image: 
+  members:
+
+- crew: Kinjaz
+  image: 
+    url: /img/crews/kinja2.jpg
+    alt: "Kinjaz Core Members"
+  event-image: "/img/events/eventkin.png"
+  crew-logo: "/img/logos/kinjalogo.png"
+  youtube: "TheKinjaz"
+  facebook: "The Kinjaz"
+  twitter: "@KINJAZ"
+  instagram: "@kinjaz"
+  crew-url: "www.kinjaz.com"
+  members:
+
+
+- crew: Mos Wanted Crew
+  image: 
+    url: /img/crews/mos.jpg
+    alt: 
+  event-image: 
+  crew-logo: "/img//logos/moslogo.png"
+  youtube: "Mos Wanted Crew"
+  facebook: "Mos Wanted"
+  twitter: "@MosWantedCrew"
+  instagram: "@moswantedcrew"
+  members:
+
+
+- crew: Poreotics
+  image: 
+    url: /img/crews/por.jpg
+    alt:
+  event-image: 
+  crew-logo: "/img/logos/por.jpg"
+  youtube: "PoreoticsHD"
+  facebook: "Poeotics Dance Crew"
+  twitter: "@POREOTICS"
+  instagram: "@poreotics"
+  crew-url: "www.poreotics.com/"
+  members:
+
+
+- crew: Quest Crew
+  image: 
+    url: /img/crews/quest.jpg
+    alt: 
+  event-image:
+  crew-logo: "/img/logos/questlogo.png"
+  youtube: "Quest Crew"
+  facebook: "Quest Crew"
+  twitter: "@TheQuestCrew"
+  instagram: "@questcrew"
+  crew-url: "wwww.questcrew.com"
+  members:
+
+- crew: Quick Crew
+  image: 
+    url: /img/crews/quick.jpg
+    alt: 
+  event-image:
+  crew-logo: "/img//logos/quicklogo.png"
+  youtube: "TheQuickStyle"
+  twitter: "@TheQuickstyle"
+  instagram: "@quickcrew"
+  crew-url: "www.thequickstyle.com"
+  members:
+
+
+- crew: S**t Kingz
+  image: 
+    url: /img/crews/stkingz.jpg
+    alt:
+  event-image:
+  crew-logo: 
+  youtube: "stkgz"
+  facebook: "S**T KINGZ"
+  twitter: "@stkgz_official"
+  instagram: "@stkgz_official"
+  crew-url: "www.shitkingz.jp/"
+  members:
+
+
+- crew: Super Crew
+  image: 
+    url: /img/crews/sup.jpg
+    alt: 
+  event-image: 
+  crew-logo: "/img/logos/sup.png"
+  facebook: "Super Cr3w"
+  twitter: "@SUPERCR3W"
+  instagram: "@supercr3w"
+  crew-url: "www.supercr3w.com"
+  members:

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!--breadcrumbs-->
-<p class="breadcrumbs">Dancer &gt <span>{{page.crew-name}}</span></p>
+<p class="breadcrumbs">Dancer &gt {{page.crew-name}} &gt <span>page.dancer-name</span></p>
 
 
 <!--crew info-->
@@ -46,18 +46,18 @@ layout: default
 <!--social media-->
 <aside>
 	<img src="{{site.youtube}}" alt="">
-	<p>{{page.youtube}}</p>
+	<p>{{site.data.dancers.youtube}}</p>
 
 	<img src="{{site.facebook}}" alt="">
-	<p>{{page.facebook}}</p>
+	<p>{{site.data.dancers.facebook}}</p>
 
 	<img src="{{site.twitter}}" alt="">
-	<p>{{page.twitter}}</p>
+	<p>{{site.data.dancers.twitter}}</p>
 
 	<img src="{{site.instagram}}" alt="">
-	<p>{{page.instagram}}</p>
+	<p>{{site.data.dancers.instagram}}</p>
 
 	<img src="{{page.individual.logo}}" alt="">
-	<p>{{page.crew.url}}</p>
+	<p>{{site.data.dancers.website}}</p>
 
 </aside>

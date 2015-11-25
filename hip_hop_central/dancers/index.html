@@ -1,88 +1,28 @@
 ---
-layout: page
+layout: default
 title: Dancers
 permalink: /dancer/
 ---
-
-<h1>individuals</h1>
-	<div class="dancer">
-		<img src="img/ant.jpg" alt="">
-		<h5>Anthony Lee</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/brian.jpg" alt="">
-		<h5>Brian Puspos</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/chachi.jpg" alt="">
-		<h5>Chachi Gonzales</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/dtrix.jpg" alt="">
-		<h5>D-Trix</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/emilio.jpg" alt="">
-		<h5>Emillio Dosal</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/ian.jpg" alt="">
-		<h5>Ian Eastwood</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/jaja.jpg" alt="">
-		<h5>JaJa Vankova</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/jawn.jpg" alt="">
-		<h5>Jawn Ha</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/jill.jpg" alt="">
-		<h5>Jillian Meyers</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/k.jpg" alt="">
-		<h5>KayKay Harris</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/lando.jpg" alt="">
-		<h5>Lando Wilkins</h5>
-	</div>
-	<div class="dancer">
-		<img src="img/megb.jpg" alt="">
-		<h5>Megan Batoon</h5>
-	</div>
-	<div class="dancer">
-		<img src="/img/mikes.jpg" alt="">
-		<h5>Mike Song</h5>
-	</div>
-	<div class="dancer">
-		<img src="/img/trapp.jpg" alt="">
-		<h5>Tam Rapp</h5>
-	</div>
-	<div class="dancer">
-		<img src="/img/vihn.jpg" alt="">
-		<h5>Vign Nguyen</h5>
-	</div>
-
-
-	{% for member in site.data.dancers %}
+<div class="container individuals">
+	<h1 class="dancers_heading">individuals</h1>
+	{% for dancer in site.data.dancers %}
 	<div class="dancers">
-		<a href="{{member.url}}">
-			<img src="{{ member.image }}" alt="">
-			<h5>{{member.name}}</h5>
-		</a>
+		<img class="dancer_pic" src="{{ dancer.image.url }}" alt="{{ dancer.image.alt }}">
+		<h5 class="dancer_name">{{dancer.dancer}}</h5>
 	</div>
 	{% endfor %}
+</div>
 
-
-	<h1>dance crews</h1>
-	{% for post in site.post %}
+<div class="container crews">
+	<h1 class="dancers_heading">dance crews</h1>
+	{% for crew in site.data.crews %}
 	<div class="crew">
-		<a href="{{post.url}}">
-			<img src="{{ post.thumbnail }}" alt="">
-			<h5>{{post.crew-name}}</h5>
-		</a>
+		<img class="crew_pic" src="{{ crew.image.url }}" alt="{{ crew.image.alt }}">
+		<h5 class="crew_name">{{crew.crew}}</h5>
 	</div>
 	{% endfor %}
+</div>
+
+
+<!-- 	<a href="{{dancer.url}}"></a>   -->
+

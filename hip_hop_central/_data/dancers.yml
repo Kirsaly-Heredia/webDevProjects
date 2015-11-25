@@ -1,88 +1,229 @@
-name: Anthoney Lee
-crew: Kinjaz
-affiliation:
-  - Movement Lifestyle
-  - ABDC Season 8
+- dancer: Anthoney Lee
+  image: 
+    url: /img/individuals/ant.jpg
+    alt: some alt
+  youtube: "Anthony Lee"
+  facebook: "Anthony Lee"
+  twitter: "@_AnthonyLee_"
+  instagram: "@_AnthonyLee_"
+  crew: Kinjaz
+  affiliation:
+    - Kinjaz
+    - Movement Lifestyle
+    - ABDC Season 8
+    - Yomama Crew
+    - Culture Shock LA
+  event-image:
 
-name: Brian Puspos
-crew: Mos Wanted Crew
-affiliation:
-  - Movement Lifestyle
-  - ABDC Season 7
+- dancer: Brian Puspos
+  image: 
+    url: /img/individuals/brain.jpg
+    alt: 
+  youtube: "Brian Puspos"
+  facebook: "Brian Puspos"
+  twitter: "@BrianPuspos"
+  instagram: "@brianpuspos"
+  crew: Mos Wanted Crew
+  affiliation:
+    - Mos Wanted Crew
+    - Younglions
+    - Movement Lifestyle
+    - ABDC Season 7
+  event-image:
 
-name: Chachi Gonzales
-affiliation:
-  - ABDC Season 6
-  - East Los High
-  - I.aM.mE
-  - World of Dance
+- dancer: Chachi Gonzales
+  image: 
+    url: /img/individuals/chachi.jpg
+    alt: 
+  youtube: "Chachi Gonzales"
+  facebook: "Olivia Chachi Gonzales"
+  twitter: "@chachigonzales"
+  instagram: "@chachigonzales"
+  website: "www.dotheadsbychachi.com"
+  affiliation:
+    - ABDC Season 6
+    - East Los High
+    - I.aM.mE
+    - World of Dance
+  event-image:
 
-name: D-Trix
-crew: Quest Crew
-affiliation:
-  - ABDC Season 4/8
+- dancer: D-Trix
+  image: 
+    url: /img/individuals/dtrix.jpg
+    alt: 
+  youtube: "theDOMINICshow"
+  facebook: "Dominic D-Trix Sandoval"
+  twitter: "@d_TRIX"
+  instagram: "@dtrixpix"
+  crew: Quest Crew
+  affiliation:
+    - Quest Crew
+    - ABDC Season 4/8
+  event-image:
 
-name: Emillio Dosal
-crew: I.aM.mE
-affiliation:
-  - Step Up: All In
-  - SYTYCD
-  - ABDC Season 6/8
+- dancer: Emillio Dosal
+  image: 
+    url: /img/individuals/emilio.jpg
+    alt:
+  youtube: "IaMEmiliodosal"
+  facebook: "Emilio Dosal"
+  twitter: "@IaMEmiliodosal"
+  instagram: "@iamemiliodosal"
+  crew: I.aM.mE
+  affiliation:
+    - I.aM.mE
+    - Step Up: All In
+    - SYTYCD
+    - ABDC Season 6/8
+  event-image:
 
-name: Ian Eastwood
-crew: Mos Wanted Crew
-affiliation:
-  - Young Lions
-  - Cub Skoutz
-  - ABDC Season 7
+- dancer: Ian Eastwood
+  image: 
+    url: /img/individuals/ian.jpg
+    alt:
+  youtube: "Ian Eastwood"
+  facebook: "Ian Eastwood"
+  twitter: "@Ian_Eastwood"
+  instagram: "@ian_eastwood"
+  website: "www.ian-eastwood.com"
+  crew: Mos Wanted Crew
+  affiliation:
+    - Mos Wanted Crew
+    - Young Lions
+    - Cub Skoutz
+    - ABDC Season 7
+  event-image:
 
-name: JaJa Vankova
-crew: I.aM.mE
-affiliation:
-  - SYTYCD
-  - ABDC Season 6
-  - Step Up: All In
+- dancer: JaJa Vankova
+  image: 
+    url: /img/individuals/jaja.jpg
+    alt: 
+  youtube: "JAJAvankova"
+  facebook: "Jaja Vankova"
+  twitter: "@JajaVankova"
+  instagram: "@jajavankova"
+  crew: I.aM.mE
+  affiliation:
+    - I.aM.mE
+    - SYTYCD
+    - ABDC Season 6
+    - Step Up: All In
+  event-image:
 
-name: Jawn Ha
-crew: Mos Wanted Crew
-affiliation:
-  - Kinjaz
-  - ABDC Season 7
 
-name: Jillian Meyers
-affiliation:
-  -Movement Lifestyle
+- dancer: Jawn Ha
+  image: 
+    url: /img/individuals/jawn.jpg
+    alt:
+  youtube: "Jawn Ha"
+  facebook: "Jawn Ha"
+  twitter: "@JawnHa"
+  instagram: "@jawnha"
+  crew: Mos Wanted Crew
+  affiliation:
+    - Mos Wanted Crew
+    - Kinjaz
+    - ABDC Season 7
+  event-image:
 
-name: KayKay Harris
-crew: 8 Flavahz
-affiliation:
-  - ABDC Season 7
+- dancer: Jillian Meyers
+  image: 
+    url: /img/individuals/jill.jpg
+    alt:
+  youtube: "JillyMeyers"
+  facebook: 
+  twitter: "@Jilly_Meyers"
+  instagram: "@jillymeyers"
+  affiliation:
+    - Movement Lifestyle
+  event-image:
 
-name: Lando Wilkins
-crew: Mos Wanted Crew
-affiliation:
-  - ABDC Season 7
+- dancer: KayKay Harris
+  image: 
+    url: /img/individuals/k.jpg
+    alt: 
+  youtube: 
+  facebook: "Kaelynn Gobert-Harris"
+  twitter: "@kaelynnharris"
+  instagram: "@kaelynnharris"
+  website: "www.kaelynnharris.com"
+  crew: 8 Flavahz
+  affiliation:
+    - 8 Flavahz
+    - ABDC Season 7
+  event-image:
 
-name: Megan Batoon
-affiliation:
-  -World of Dance
-  - Step Up Revolution
+- dancer: Lando Wilkins
+  image: 
+    url: /img/individuals/lando.jpg
+    alt:
+  youtube: "Lando Wilkins"
+  facebook: "Lando Wilkins"
+  twitter: "@LandoWilkins"
+  instagram: "@landowilkins"
+  crew: Mos Wanted Crew
+  affiliation:
+    - Mos Wanted Crew
+    - ABDC Season 7
+  event-image:
 
-name: Mike Song
-crew: Kinjaz
-affiliation:
-  -Kabba Modern
-  - ABDC Season 1/8
+- dancer: Megan Batoon
+  image: 
+    url: /img/individuals/megb.jpg
+    alt: 
+  youtube: "MeganBatoon"
+  facebook: "Megan Batoon"
+  twitter: "@meganbatoon"
+  instagram: "@meganbatoon"
+  website: "www.meganbatoon.com"
+  affiliation:
+    - World of Dance
+    - Step Up Revolution
+  event-image:
 
-name: Tamar Rapp
-crew: I.aM.mE
-affiliation:
-  - 8 Flavahz
-  - ABDC Season 7/8
+- dancer: Mike Song
+  image: 
+    url: /img/individuals/mikes.jpg
+    alt:
+  youtube: "Mike Song"
+  facebook: "Mike Song"
+  twitter: "@MIKEOSONG"
+  instagram: "@mikeosong"
+  crew: Kinjaz
+  affiliation:
+    - Kinjaz
+    - Kabba Modern
+    - ABDC Season 1/8
+    - Step Up Revolution
+  event-image:
 
-name: Vihn Nguyen
-crew: Kinjaz
-affiliation:
-  -Movement Lifestyle
-  - ABDC Season 8
+- dancer: Tamar Rapp
+  image: 
+    url: /img/individuals/trapp.jpg
+    alt:
+  youtube: ""
+  facebook: "Tam Rapp"
+  twitter: "@tam_rapp"
+  instagram: "@tam_rapp247"
+  crew: I.aM.mE
+  affiliation:
+    - I.aM.mE
+    - 8 Flavahz
+    - ABDC Season 7/8
+  event-image:
+
+- dancer: Vihn Nguyen
+  image: 
+    url: /img/individuals/vinh.jpg
+    alt:
+  youtube: "Vinh Nguyen"
+  facebook: "Vinh Nguyen"
+  twitter: "@v1nh"
+  instagram: "@v1nh"
+  crew: Kinjaz
+  affiliation:
+    - Kinjaz
+    - Movement Lifestyle
+    - ABDC Season 8
+  event-image:
 
