@@ -1,62 +1,67 @@
 ---
 layout: default
 ---
+{% for crew in site.pages %}
+  {% if crew.type == 'crew' %}
 
-<!--breadcrumbs-->
-<p class="breadcrumbs">Dancer &gt <span>{{page.crew-name}}</span></p>
-
-
-<!--crew info-->
-<article class="post">
-	<header class="post-header">
-		<h1>{{page.crew-name}}</h1>
-	</header>
-
-	<div class="post-content" itemprop="articleBody">
-		<img src=" {{page.crew-image }}" alt="">
-		<p>{{content}}</p>
-	</div>
-</article>
-
-<!--core members-->
-<aside>
-	<h3>Core Members</h3>
-	<div>
-		{% for member in site.data.dancers %}
-		  {% if member.crew == page.crew-name %}
-		  <h5>
-		    <a class="" href="{{ member.name | prepend: site.baseurl }}">{{ member.name }}</a>
-		  </h5>
-		  {% endif %}
-		{% endfor %}
-	</div>
-</aside>
+	<!--breadcrumbs-->
+	<p class="breadcrumbs">Dancer &gt <span>{{crew.title}}</span></p>
 
 
-<!--upcoming appearances-->
-<aside>
-	<h3>Upcoming Appearances</h3>
-	<img src="{{page.event-image}}" alt="">
-	<div>button</div>
-	<div>button</div>
-</aside>	
+	<!--crew info-->
+	<article class="post">
+		<h1>{{dancer.title}}</h1>
+
+		<div class="post-content" itemprop="articleBody">
+			<img src=" {{crew.image.url }}" alt=" {{crew.image.alt }}">
+			<p>{{ content }}</p>
+		</div>
+	</article>
+
+	<!--core members-->
+	<aside>
+		<h3>Core Members</h3>
+		<div>
+		</div>
+	</aside>
 
 
-<!--social media-->
-<aside>
-	<img src="{{site.youtube}}" alt="">
-	<p>{{page.youtube}}</p>
+	<!--upcoming appearances-->
+	<aside>
+		<h3>Upcoming Appearances</h3>
+		<img src="{{crew.event-image}}" alt="">
+		<div>button</div>
+		<div>button</div>
+	</aside>	
 
-	<img src="{{site.facebook}}" alt="">
-	<p>{{page.facebook}}</p>
 
-	<img src="{{site.twitter}}" alt="">
-	<p>{{page.twitter}}</p>
+	<!--social media-->
+	<aside>
+		<div class="sm_combo">
+			<img class="sm" src="{{site.youtube}}" alt="">
+			<p>{{crew.youtube}}</p>
+		</div>
 
-	<img src="{{site.instagram}}" alt="">
-	<p>{{page.instagram}}</p>
+		<div class="sm_combo">
+			<img class="sm" src="{{site.facebook}}" alt="">
+			<p>{{crew.facebook}}</p>
+		</div>
 
-	<img src="{{page.crew.logo}}" alt="">
-	<p>{{page.crew.url}}</p>
+		<div class="sm_combo">
+			<img class="sm" src="{{site.twitter}}" alt="">
+			<p>{{crew.twitter}}</p>
+		</div>
 
-</aside>
+		<div class="sm_combo">
+			<img class="sm" src="{{site.instagram}}" alt="">
+			<p>{{crew.instagram}}</p>
+		</div>
+
+		<div class="sm_combo">
+			<img class="sm" src="{{crew.crew.logo}}" alt="">
+			<p>{{crew.crew-url}}</p>
+		</div>
+	</aside>
+
+  {% endif %}
+{% endfor %}

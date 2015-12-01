@@ -1,63 +1,62 @@
 ---
 layout: default
 ---
+{% for dancer in site.pages %}
+  {% if dancer.type == 'individual' %}
 
-<!--breadcrumbs-->
-<p class="breadcrumbs">Dancer &gt {{page.crew-name}} &gt <span>page.dancer-name</span></p>
-
-
-<!--crew info-->
-<article class="post">
-
-	<header class="post-header">
-		<h1>{{page.individual-name}}</h1>
-	</header>
-
-	<div class="post-content" itemprop="articleBody">
-		<img src=" {{page.individual-image }}" alt="">
-		<p>{{content}}</p>
-	</div>
-</article>
-
-<!--affiliations-->
-<aside>
-	<h3>Affiliations</h3>
-	<!-- <div>
-		{% for member in site.data.dancers %}
-		  {% if member.crew == page.crew-name %}
-		  <h5>
-		    <a class="" href="{{ member.name | prepend: site.baseurl }}">{{ member.name }}</a>
-		  </h5>
-		  {% endif %}
-		{% endfor %}
-	</div> -->
-</aside>
+	<!--breadcrumbs-->
+	<p class="breadcrumbs">Dancer &gt {{dancer.crew}} &gt <span>{{dancer.title}}</span></p>
 
 
-<!--upcoming appearances-->
-<aside>
-	<h3>Upcoming Appearances</h3>
-	<img src="{{page.event-image}}" alt="">
-	<div>button</div>
-	<div>button</div>
-</aside>	
+	<!--crew info-->
+	<article class="post">
+		<h1>{{dancer.dancer}}</h1>
+
+		<div class="post-content" itemprop="articleBody">
+			<img src=" {{dancer.image.url }}" alt=" {{dancer.image.alt }}">
+			<p>{{ content }}</p>
+		</div>
+	</article>
+
+	<!--affiliations-->
+	<aside>
+		<h3>Affiliations</h3>
+		<div>
+			{% for affiliation in dancer.affiliation %}
+			  <ul>
+				<li>affiliation</li>
+			  </ul>
+			{% endfor %}
+		</div>
+	</aside>
 
 
-<!--social media-->
-<aside>
-	<img src="{{site.youtube}}" alt="">
-	<p>{{site.data.dancers.youtube}}</p>
+	<!--upcoming appearances-->
+	<aside>
+		<h3>Upcoming Appearances</h3>
+		<img src="{{dancer.event-image}}" alt="">
+		<div>button</div>
+		<div>button</div>
+	</aside>	
 
-	<img src="{{site.facebook}}" alt="">
-	<p>{{site.data.dancers.facebook}}</p>
 
-	<img src="{{site.twitter}}" alt="">
-	<p>{{site.data.dancers.twitter}}</p>
+	<!--social media-->
+	<aside>
+		<img class="sm" src="{{site.youtube}}" alt="">
+		<p>{{dancer.youtube}}</p>
 
-	<img src="{{site.instagram}}" alt="">
-	<p>{{site.data.dancers.instagram}}</p>
+		<img class="sm" src="{{site.facebook}}" alt="">
+		<p>{{dancer.facebook}}</p>
 
-	<img src="{{page.individual.logo}}" alt="">
-	<p>{{site.data.dancers.website}}</p>
+		<img class="sm" src="{{site.twitter}}" alt="">
+		<p>{{dancer.twitter}}</p>
 
-</aside>
+		<img class="sm" src="{{site.instagram}}" alt="">
+		<p>{{dancer.instagram}}</p>
+
+		<img class="sm" src="{{page.individual.logo}}" alt="">
+		<p>{{dancer.website}}</p>
+	</aside>
+	
+  {% endif %}
+{% endfor %}

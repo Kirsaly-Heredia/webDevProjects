@@ -13,6 +13,13 @@ body{
 h1{
 	text-transform: uppercase;
 	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 }
 
 h1, p{
@@ -42,7 +49,7 @@ ul{
     height: 35px;
 }
 
-li{	
+li {	
 	color: #FFF;
 	display: inline-block;
 	margin-left: 15px;
@@ -110,13 +117,13 @@ li{
 }
 
 /*featured dancer and current news*/
-.stuff{
+.home{
 	display: inline-flex;
 	flex-flow: row wrap;
-	width: 900px;
-	margin-left: 70px;
+	width: 1000px;
+	margin-left: 30px;
 	margin-bottom: 25px;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .twitter{
@@ -125,8 +132,9 @@ li{
 	height: 750px;
 }
 .fd_title, .news_heading{
-	width: 800px;
+	width: 1000px;
 	height: 75px;
+	text-align: center;
 }
 
 .fd_img{
@@ -135,34 +143,44 @@ li{
 }
 
 .fd_text{
-	width: 550px;
+	width: 700px;
 	height: 225px;
 }
 
 .news_item{
 	width: 265px;
-	height: 300px;
+	height: 400px;
 }
 .news_img{
 	width: 260px;
 	height: 160px;
 }
 
+/* dancers page */
 .individuals, .crews{
 	display: flex;
 	width: 1200px;
+	height: 900px;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: space-around;
+	margin-bottom: 20px;
 }
 
 .dancers_heading{
 	width: 1200px;
 	text-align: center;
 }
+div.dancer{
+	width:200px;
+}
 
 img.dancer_pic{
 	width: 200px;
 	height:200px;
+}
+
+div.crew{
+	width:350px;
 }
 
 img.crew_pic{
@@ -172,6 +190,19 @@ img.crew_pic{
 
 .dancer_name, .crew_name{
 	text-align: center;
+	font-family: 'Glegoo', serif;
+	font-size: 20px;
+
+}
+
+img.sm{
+	width: 40px;
+	height: 40px;
+}
+
+.sm_combo{
+	width: 160px;
+	height: 40px;
 }
 
 
