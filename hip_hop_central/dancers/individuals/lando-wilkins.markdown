@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Lando Wilkins
+sid: lando-wilkins
 type: individual
 image: 
   url: /img/individuals/lando.jpg

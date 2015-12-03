@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Anthony Lee
+sid: anthony-lee
 type: individual
 image: 
   url: /img/individuals/ant.jpg

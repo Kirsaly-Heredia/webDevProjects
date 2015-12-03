@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Chachi Gonzales
+sid: chachi-gonzales
 type: individual
 image: 
   url: /img/individuals/chachi.jpg

@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: KayKay Harris
+sid: kk-harris
 type: individual
 image: 
   url: /img/individuals/k.jpg

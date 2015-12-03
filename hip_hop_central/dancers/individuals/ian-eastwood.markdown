@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Ian Eastwood
+sid: ian-eastwood
 type: individual
 image: 
   url: /img/individuals/ian.jpg

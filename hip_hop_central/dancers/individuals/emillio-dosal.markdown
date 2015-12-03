@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Emillio Dosal
+sid: emillio-dosal
 type: individual
 image: 
   url: /img/individuals/emilio.jpg

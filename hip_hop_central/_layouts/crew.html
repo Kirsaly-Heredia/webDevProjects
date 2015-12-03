@@ -2,66 +2,66 @@
 layout: default
 ---
 {% for crew in site.pages %}
-  {% if crew.type == 'crew' %}
+    {% if crew.type == 'crew' %}
+		{% if crew.sid != crew.url | remove ".html" | replace: "/dancers/crews/", "" %}
 
-	<!--breadcrumbs-->
-	<p class="breadcrumbs">Dancer &gt <span>{{crew.title}}</span></p>
+			<!--breadcrumbs-->
+			<p class="breadcrumbs">Dancer &gt <span>{{crew.title}}</span></p>
 
+			<h1>{{crew.title}}</h1>
+			
+			<!--crew info-->
+			<div class="container main">
+				<img class="crew_img" src=" {{crew.image.url }}" alt=" {{crew.image.alt }}">
+				<p class="crew_bio">{{ content }}</p>
+			</div>
 
-	<!--crew info-->
-	<article class="post">
-		<h1>{{dancer.title}}</h1>
+			<div class="container extras">
+				<!--core members-->
+				<div class="container members">
+					<h3 class="box_title">Core Members</h3>
+					<div class="members_list">
+						<ul class="mem_list">
+						{% for member in crew.members %}
+							<li class="meminlist">{{member.members}}<li>
+						</ul>{% endfor %}
+					</div>
 
-		<div class="post-content" itemprop="articleBody">
-			<img src=" {{crew.image.url }}" alt=" {{crew.image.alt }}">
-			<p>{{ content }}</p>
-		</div>
-	</article>
+				<!--upcoming appearances-->
+				<div class="container events">
+					<h3 class="box_title">Upcoming Appearances</h3>
+					<img class="events_img" src="{{crew.event-image}}" alt="">
+				</div>
 
-	<!--core members-->
-	<aside>
-		<h3>Core Members</h3>
-		<div>
-		</div>
-	</aside>
+				<!--social media-->
+				<div class="container social">
+					<div class="sm_combo">
+						<img class="sm" src="{{site.youtube}}" alt="">
+						<p>{{crew.youtube}}</p>
+					</div>
 
+					<div class="sm_combo">
+						<img class="sm" src="{{site.facebook}}" alt="">
+						<p>{{crew.facebook}}</p>
+					</div>
 
-	<!--upcoming appearances-->
-	<aside>
-		<h3>Upcoming Appearances</h3>
-		<img src="{{crew.event-image}}" alt="">
-		<div>button</div>
-		<div>button</div>
-	</aside>	
+					<div class="sm_combo">
+						<img class="sm" src="{{site.twitter}}" alt="">
+						<p>{{crew.twitter}}</p>
+					</div>
 
+					<div class="sm_combo">
+						<img class="sm" src="{{site.instagram}}" alt="">
+						<p>{{crew.instagram}}</p>
+					</div>
 
-	<!--social media-->
-	<aside>
-		<div class="sm_combo">
-			<img class="sm" src="{{site.youtube}}" alt="">
-			<p>{{crew.youtube}}</p>
-		</div>
+					<div class="sm_combo">
+						<img class="sm" src="{{crew.crew.logo}}" alt="">
+						<p>{{crew.crew-url}}</p>
+					</div>
+				</div>
+			</div>
 
-		<div class="sm_combo">
-			<img class="sm" src="{{site.facebook}}" alt="">
-			<p>{{crew.facebook}}</p>
-		</div>
-
-		<div class="sm_combo">
-			<img class="sm" src="{{site.twitter}}" alt="">
-			<p>{{crew.twitter}}</p>
-		</div>
-
-		<div class="sm_combo">
-			<img class="sm" src="{{site.instagram}}" alt="">
-			<p>{{crew.instagram}}</p>
-		</div>
-
-		<div class="sm_combo">
-			<img class="sm" src="{{crew.crew.logo}}" alt="">
-			<p>{{crew.crew-url}}</p>
-		</div>
-	</aside>
-
-  {% endif %}
+		{% endif %}
+    {% endif %}
 {% endfor %}

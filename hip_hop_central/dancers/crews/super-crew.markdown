@@ -1,6 +1,7 @@
 ---
 layout: crew
 title: Super Crew
+sid: super-crew
 type: crew
 image:
   url: /img/crews/sup.jpg

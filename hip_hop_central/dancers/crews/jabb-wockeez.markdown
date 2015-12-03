@@ -1,6 +1,7 @@
 ---
 layout: crew
 title: Jabbawockeez
+sid: jabb-wockeez
 type: crew
 image: 
   url: /img/crews/jabba.jpg

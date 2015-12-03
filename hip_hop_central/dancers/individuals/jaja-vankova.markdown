@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: JaJa Vankova
+sid: jaja-vankova
 type: individual
 image: 
   url: /img/individuals/jaja.jpg

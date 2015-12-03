@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Brian Puspos
+sid: brain-puspos
 type: individual
 image: 
   url: /img/individuals/brain.jpg

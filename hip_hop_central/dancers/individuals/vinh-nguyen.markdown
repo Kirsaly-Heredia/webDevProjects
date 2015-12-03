@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Vihn Nguyen
+sid: vihn-nguyen
 type: individual
 image: 
   url: /img/individuals/vinh.jpg

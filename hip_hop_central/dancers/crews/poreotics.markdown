@@ -1,6 +1,7 @@
 ---
 layout: crew
 title: Poreotics
+sid: poreotics
 type: crew
 image: 
   url: /img/crews/por.jpg

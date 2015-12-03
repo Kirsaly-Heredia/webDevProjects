@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Jillian Meyers
+sid: jillian-meyers
 type: individual
 image: 
   url: /img/individuals/jill.jpg

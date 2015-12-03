@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Mike Song
+sid: mike-song
 type: individual
 image: 
   url: /img/individuals/mikes.jpg

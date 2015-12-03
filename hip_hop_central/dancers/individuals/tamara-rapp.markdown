@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Tamar Rapp
+sid: tamara-rapp
 type: individual
 image: 
   url: /img/individuals/trapp.jpg

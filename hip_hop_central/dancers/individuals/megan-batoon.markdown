@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Megan Batoon
+sid: megan-batoon
 type: individual
 image: 
   url: /img/individuals/megb.jpg

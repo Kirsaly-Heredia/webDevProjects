@@ -17,6 +17,12 @@ h1{
 	font-size: 50px;
 }
 
+h4{
+	width: 80px;
+	margin:6px 0px;
+	float:right;
+}
+
 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -192,19 +198,93 @@ img.crew_pic{
 	text-align: center;
 	font-family: 'Glegoo', serif;
 	font-size: 20px;
-
 }
 
-img.sm{
-	width: 40px;
-	height: 40px;
+/*crew pages*/
+.mem_list{
+	list-style-type: none;
+	padding: 0px;
+}
+
+.meminlist{
+	text-align: center;
+	padding:4px;
+}
+
+.container{
+	margin-bottom: 40px;
+}
+
+/*info*/
+.main{
+	display: inline-flex;
+	flex-flow: row wrap;
+	width: 1000px;
+}
+
+.crew_img, .crew_bio{
+	width: 900px;
+}
+
+.crew_img{
+	height:500px;
+}
+
+.extras{
+	display: inline-flex;
+	flex-flow: row wrap;
+	width: 275px;
+}
+
+.box_title{
+	width: 275px;
+	text-align: center;
+	background-color: #231F20;
+	color: #FFF;
+	margin:0px;
+	padding: 15px 0px;
+}
+
+/*members*/
+.members{
+	display: flex;
+	flex-flow: row wrap;
+	width: 275px;
+}
+
+.members_list{
+	background-color: #E0DCDC;
+	width: 275px;
+}
+
+/*events*/
+.events{
+	display: flex;
+	flex-flow: row wrap;
+	width: 275px;
+}
+
+.events_img{
+	width:275px;
+	height: 275px;
+}
+
+/*social media*/
+.social{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	width: 275px;
 }
 
 .sm_combo{
-	width: 160px;
-	height: 40px;
+	width: 118px;
 }
-
+.sm{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
 
 /*footer*/
 footer{

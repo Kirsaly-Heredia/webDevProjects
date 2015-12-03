@@ -1,17 +1,17 @@
 ---
 layout: crew
-title: Quest Crew
+title: Quick Crew
+sid: quick-crew
 type: crew
 image: 
-  url: /img/crews/quest.jpg
+  url: /img/crews/quick.jpg
   alt: 
 event-image:
-crew-logo: "/img/logos/questlogo.png"
-youtube: "Quest Crew"
-facebook: "Quest Crew"
-twitter: "@TheQuestCrew"
-instagram: "@questcrew"
-crew-url: "wwww.questcrew.com"
+crew-logo: "/img//logos/quicklogo.png"
+youtube: "TheQuickStyle"
+twitter: "@TheQuickstyle"
+instagram: "@quickcrew"
+crew-url: "www.thequickstyle.com"
 members:
 ---
 

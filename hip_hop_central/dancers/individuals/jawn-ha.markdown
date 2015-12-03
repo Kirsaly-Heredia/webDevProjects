@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: Jawn Ha
+sid: jawn-ha
 type: individual
 image: 
   url: /img/individuals/jawn.jpg

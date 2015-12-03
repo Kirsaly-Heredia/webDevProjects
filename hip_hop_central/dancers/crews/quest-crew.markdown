@@ -1,6 +1,7 @@
 ---
 layout: crew
 title: Quest Crew
+sid: quest-crew
 type: crew
 image: 
   url: /img/crews/quest.jpg

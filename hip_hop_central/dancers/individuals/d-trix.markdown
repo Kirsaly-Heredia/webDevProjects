@@ -1,6 +1,7 @@
 ---
 layout: individual
 title: D-Trix
+sid: d-trix
 type: individual
 image: 
   url: /img/individuals/dtrix.jpg
