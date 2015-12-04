@@ -7,13 +7,13 @@
 
 body{
 	background-color: #BCBEC0;
-	font-family: 'Century Gothin', Arial, Tahoma, sans-serif;
+	font-family: font-family: 'Open Sans', Arial, Tahoma, sans-serif;
 }
 
 h1{
 	text-transform: uppercase;
 	text-align: center;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Sintony', cursive;
 	font-size: 50px;
 }
 
@@ -24,7 +24,6 @@ h4{
 }
 
 p{
-	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 }
 
@@ -39,7 +38,8 @@ span{
 
 /*header*/
 header{
-	position: relative;
+	position: fixed;
+	z-index: 1;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -47,22 +47,37 @@ header{
 	background-color: #231F20 
 }
 
-ul{
+ul {
+	text-align: center;
 	position: absolute;
-    top: 55px;
-    left: 228px;
+    top: 45px;
+    left: 220px;
     width: 570px;
     height: 35px;
 }
 
-li {	
-	color: #FFF;
+li.nav {	
 	display: inline-block;
 	margin-left: 15px;
 	margin-bottom: 10px;
+	font-family: 'Droid Sans'
 }
 
-.logo{
+a{
+	color: #FFF;
+	font-size: 30px; 
+}
+
+a:hover, a:active{
+	color: #387747;
+	text-decoration: none;
+}
+
+a.crew_name, a.dancer_name{
+	color: #000;
+}
+
+.logo {
 	position:absolute;
 	top: 0;
 	left: 0;
@@ -103,14 +118,15 @@ li {
 /*slide banner*/
 .slide{
 	position: relative;
-	top: 0px;
+	top: 100px;
 	width: 100%;
+	margin-bottom: 70px;
 }
 
 .slide_butttons{
     position: relative;
     width: 118px;
-    bottom: 50px;
+    bottom: 20px;
     left: 600px;
 }
 
@@ -126,7 +142,7 @@ li {
 .home{
 	display: inline-flex;
 	flex-flow: row wrap;
-	width: 1000px;
+	width: 970px;
 	margin-left: 30px;
 	margin-bottom: 25px;
 	justify-content: space-between;
@@ -138,7 +154,7 @@ li {
 	height: 750px;
 }
 .fd_title, .news_heading{
-	width: 1000px;
+	width: 970px;
 	height: 75px;
 	text-align: center;
 }
@@ -164,12 +180,18 @@ li {
 
 /* dancers page */
 .individuals, .crews{
+	position: relative;
+	top: 100px;
 	display: flex;
 	width: 1200px;
 	height: 900px;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	margin-bottom: 20px;
+}
+
+.crews{
+	margin-bottom: 30px;
+	padding-bottom: 80px;
 }
 
 .dancers_heading{
@@ -207,6 +229,7 @@ img.crew_pic{
 }
 
 .meminlist{
+	list-style-type: none;
 	text-align: center;
 	padding:4px;
 }
@@ -216,10 +239,17 @@ img.crew_pic{
 }
 
 /*info*/
+.title{
+	position: relative;
+	top: 100px;
+}
+
 .main{
 	display: inline-flex;
 	flex-flow: row wrap;
-	width: 1000px;
+	width: 900px;
+	position: relative;
+	top: 100px;
 }
 
 .crew_img, .crew_bio{
@@ -233,11 +263,13 @@ img.crew_pic{
 .extras{
 	display: inline-flex;
 	flex-flow: row wrap;
-	width: 275px;
+	width: 300px;
+	position: relative;
+	top: 100px;
 }
 
 .box_title{
-	width: 275px;
+	width: 300px;
 	text-align: center;
 	background-color: #231F20;
 	color: #FFF;
@@ -249,23 +281,23 @@ img.crew_pic{
 .members{
 	display: flex;
 	flex-flow: row wrap;
-	width: 275px;
+	width: 300px;
 }
 
 .members_list{
 	background-color: #E0DCDC;
-	width: 275px;
+	width: 300px;
 }
 
 /*events*/
 .events{
 	display: flex;
 	flex-flow: row wrap;
-	width: 275px;
+	width: 300px;
 }
 
 .events_img{
-	width:275px;
+	width:300px;
 	height: 275px;
 }
 
@@ -274,7 +306,7 @@ img.crew_pic{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	width: 275px;
+	width: 300px;
 }
 
 .sm_combo{

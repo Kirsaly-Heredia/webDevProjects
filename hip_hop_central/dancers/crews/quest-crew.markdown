@@ -6,7 +6,7 @@ type: crew
 image: 
   url: /img/crews/quest.jpg
   alt: 
-event-image:
+event-image: /img/events/eventquest.png
 crew-logo: "/img/logos/questlogo.png"
 youtube: "Quest Crew"
 facebook: "Quest Crew"
@@ -14,6 +14,15 @@ twitter: "@TheQuestCrew"
 instagram: "@questcrew"
 crew-url: "wwww.questcrew.com"
 members:
+  - member: Hokuto "Hok" Konishi
+  - member: Steve "Dope Turtle" Terada
+  - member: Ryan "Ryanimay" Conferido
+  - member: Dominic "D-trix" Sandoval
+  - member: Ryan Feng
+  - member: Brian Hirano
+  - member: Aris "FreakinAris" Paracuelles
+  - Jmember: oe "Jolee" Lee
+  - member: Rudy "Ru" Reynon
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, purus sed lacinia malesuada, erat eros finibus tellus, et dapibus enim lacus eu mi. Ut ac pulvinar nisi. Curabitur laoreet scelerisque porttitor. Maecenas lobortis diam nulla, vel pretium ante lobortis nec. Fusce finibus orci a neque ornare, quis rhoncus diam cursus. Duis maximus ac eros at varius. Fusce elementum dui suscipit augue feugiat, ornare vulputate sem mollis. Aliquam metus justo, tincidunt id accumsan sed, suscipit ultrices tortor. Donec orci est, tristique eu tellus nec, aliquam dignissim metus. Praesent mi lorem, facilisis ut ante ac, posuere fermentum metus.

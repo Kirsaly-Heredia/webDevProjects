@@ -3,12 +3,15 @@ layout: default
 ---
 {% for crew in site.pages %}
     {% if crew.type == 'crew' %}
-		{% if crew.sid != crew.url | remove ".html" | replace: "/dancers/crews/", "" %}
+
+    
+		{% if crew.sid == page.url | remove ".html" | replace: "/dancers/crews/", "" %}
+
 
 			<!--breadcrumbs-->
 			<p class="breadcrumbs">Dancer &gt <span>{{crew.title}}</span></p>
 
-			<h1>{{crew.title}}</h1>
+			<h1 class="title">{{crew.title}}</h1>
 			
 			<!--crew info-->
 			<div class="container main">
@@ -21,9 +24,8 @@ layout: default
 				<div class="container members">
 					<h3 class="box_title">Core Members</h3>
 					<div class="members_list">
-						<ul class="mem_list">
-						{% for member in crew.members %}
-							<li class="meminlist">{{member.members}}<li>
+						<ul class="mem_list">{% for coremembers in crew.members %}
+							<li class="meminlist">{{coremembers.member}}</li>
 						</ul>{% endfor %}
 					</div>
 
