@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink: /dancers/individuals/vihn-nguyen.html
 title: Vihn Nguyen
-sid: vihn-nguyen
 type: individual
 image: 
   url: /img/individuals/vinh.jpg
@@ -11,10 +11,10 @@ facebook: "Vinh Nguyen"
 twitter: "@v1nh"
 instagram: "@v1nh"
 crew: Kinjaz
-affiliation:
-  - Kinjaz
-  - Movement Lifestyle
-  - ABDC Season 8
+affiliations:
+  - affiliation: Kinjaz
+  - affiliation: Movement Lifestyle
+  - affiliation: ABDC Season 8
 event-image:
 ---
 

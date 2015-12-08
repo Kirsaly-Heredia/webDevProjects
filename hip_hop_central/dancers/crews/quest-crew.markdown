@@ -1,7 +1,7 @@
 ---
 layout: crew
+permalink: /dancers/crews/quest-crew.html
 title: Quest Crew
-sid: quest-crew
 type: crew
 image: 
   url: /img/crews/quest.jpg

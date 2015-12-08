@@ -1,20 +1,20 @@
 ---
 layout: individual
-title: Tamar Rapp
-sid: tamara-rapp
+permalink: /dancers/individuals/tamara-rapp.html
+title: Tamara Rapp
 type: individual
 image: 
-  url: /img/individuals/trapp.jpg
-a  lt:
+	url: /img/individuals/trapp.jpg
+	alt:
 youtube: ""
 facebook: "Tam Rapp"
 twitter: "@tam_rapp"
 instagram: "@tam_rapp247"
 crew: I.aM.mE
-affiliation:
-  - I.aM.mE
-  - 8 Flavahz
-  - ABDC Season 7/8
+affiliations:
+  - affiliation: I.aM.mE
+  - affiliation: 8 Flavahz
+  - affiliation: ABDC Season 7/8
 event-image:
 ---
 

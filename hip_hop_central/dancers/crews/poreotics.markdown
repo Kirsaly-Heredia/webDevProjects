@@ -1,7 +1,7 @@
 ---
 layout: crew
+permalink: /dancers/crews/poreotics.html
 title: Poreotics
-sid: poreotics
 type: crew
 image: 
   url: /img/crews/por.jpg

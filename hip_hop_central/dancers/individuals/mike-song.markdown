@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/mike-song.html
 title: Mike Song
-sid: mike-song
 type: individual
 image: 
   url: /img/individuals/mikes.jpg
@@ -11,11 +11,11 @@ facebook: "Mike Song"
 twitter: "@MIKEOSONG"
 instagram: "@mikeosong"
 crew: Kinjaz
-affiliation:
-  - Kinjaz
-  - Kabba Modern
-  - ABDC Season 1/8
-  - Step Up Revolution
+affiliations:
+  - affiliation: Kinjaz
+  - affiliation: Kabba Modern
+  - affiliation: ABDC Season 1/8
+  - affiliation: Step Up Revolution
 event-image:
 ---
 

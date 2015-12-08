@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/kk-harris.html
 title: KayKay Harris
-sid: kk-harris
 type: individual
 image: 
   url: /img/individuals/k.jpg
@@ -12,9 +12,9 @@ twitter: "@kaelynnharris"
 instagram: "@kaelynnharris"
 website: "www.kaelynnharris.com"
 crew: 8 Flavahz
-affiliation:
-  - 8 Flavahz
-  - ABDC Season 7
+affiliations:
+  - affiliation: 8 Flavahz
+  - affiliation: ABDC Season 7
 event-image:
 ---
 

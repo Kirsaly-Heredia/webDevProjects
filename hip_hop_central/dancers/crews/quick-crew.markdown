@@ -1,7 +1,7 @@
 ---
 layout: crew
-title: Quick Crew
-sid: quick-crew
+permalink: /dancers/crews/quick-crew.html
+title: Quick Crew 
 type: crew
 image: 
   url: /img/crews/quick.jpg

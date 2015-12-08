@@ -1,7 +1,7 @@
 ---
 layout: crew
+permalink: /dancers/crews/jabb-wockeez.html
 title: Jabbawockeez
-sid: jabb-wockeez
 type: crew
 image: 
   url: /img/crews/jabba.jpg

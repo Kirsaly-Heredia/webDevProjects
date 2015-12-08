@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/anthony-lee.html
 title: Anthony Lee
-sid: anthony-lee
 type: individual
 image: 
   url: /img/individuals/ant.jpg
@@ -11,12 +11,12 @@ facebook: "Anthony Lee"
 twitter: "@_AnthonyLee_"
 instagram: "@_AnthonyLee_"
 crew: Kinjaz
-affiliation:
-  - Kinjaz
-  - Movement Lifestyle
-  - ABDC Season 8
-  - Yomama Crew
-  - Culture Shock LA
+affiliations:
+  - affiliation: Kinjaz
+  - affiliation: Movement Lifestyle
+  - affiliation: ABDC Season 8
+  - affiliation: Yomama Crew
+  - affiliation: Culture Shock LA
 event-image:
 ---
 

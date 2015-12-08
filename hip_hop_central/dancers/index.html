@@ -2,29 +2,29 @@
 layout: default
 title: Dancers
 ---
-
+<!--individual dancers-->
 <div class="container individuals">
 	<h1 class="dancers_heading">individuals</h1>
-	{% for dancer in site.pages %}
-	  {% if dancer.type == 'individual' %}
+	{% for profile in site.pages %}
+	  {% if profile.type == 'individual' %}
 		<div class="dancer">
-		  <img class="dancer_pic" src="{{ dancer.image.url }}" alt="{{ dancer.image.alt }}">
-		  <a class="dancer_name" href="{{dancer.url}}">{{dancer.title}}</a>
+		  <img class="dancer_pic" src="{{ profile.image.url }}" alt="{{ profile.image.alt }}">
+		  <a class="dancer_name" href="{{profile.url}}">{{profile.title}}</a>
 		</div>
 	  {% endif %}
 	{% endfor %}
 </div>
 
+
+<!--dance crews-->
 <div class="container crews">
 	<h1 class="dancers_heading">dance crews</h1>
-	{% for crew in site.pages %}
-	  {% if crew.type == 'crew' %}
+	{% for profile in site.pages %}
+	  {% if profile.type == 'crew' %}
 		<div class="crew">
-		  <img class="crew_pic" src="{{ crew.image.url }}" alt="{{ crew.image.alt }}">
-		  <a class="crew_name" href="{{crew.url}}">{{crew.title}}</a>
+		  <img class="crew_pic" src="{{ profile.image.url }}" alt="{{ profile.image.alt }}">
+		  <a class="crew_name" href="{{profile.url}}">{{profile.title}}</a>
 		</div>
 	  {% endif %}
 	{% endfor %}
 </div>
-
-<!-- <a href="{{dancer.url}}"></a> -->

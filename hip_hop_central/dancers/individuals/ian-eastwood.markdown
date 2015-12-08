@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/ian-eastwood.html
 title: Ian Eastwood
-sid: ian-eastwood
 type: individual
 image: 
   url: /img/individuals/ian.jpg
@@ -12,11 +12,11 @@ twitter: "@Ian_Eastwood"
 instagram: "@ian_eastwood"
 website: "www.ian-eastwood.com"
 crew: Mos Wanted Crew
-affiliation:
-  - Mos Wanted Crew
-  - Young Lions
-  - Cub Skoutz
-  - ABDC Season 7
+affiliations:
+  - affiliation: Mos Wanted Crew
+  - affiliation: Young Lions
+  - affiliation: Cub Skoutz
+  - affiliation: ABDC Season 7
 event-image:
 ---
 

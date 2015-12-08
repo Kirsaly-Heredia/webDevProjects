@@ -7,7 +7,7 @@
 
 body{
 	background-color: #BCBEC0;
-	font-family: font-family: 'Open Sans', Arial, Tahoma, sans-serif;
+	font-family: 'Open Sans', Arial, Tahoma, sans-serif;
 }
 
 h1{
@@ -74,6 +74,7 @@ a:hover, a:active{
 }
 
 a.crew_name, a.dancer_name{
+	font-family: 'graduate' , sans-serif;;
 	color: #000;
 }
 
@@ -222,13 +223,13 @@ img.crew_pic{
 	font-size: 20px;
 }
 
-/*crew pages*/
-.mem_list{
+/*crew pages and individual pages*/
+.mem_list, .afil_list{
 	list-style-type: none;
 	padding: 0px;
 }
 
-.meminlist{
+.meminlist, .affilinlist{
 	list-style-type: none;
 	text-align: center;
 	padding:4px;
@@ -244,7 +245,7 @@ img.crew_pic{
 	top: 100px;
 }
 
-.main{
+.c_main{
 	display: inline-flex;
 	flex-flow: row wrap;
 	width: 900px;
@@ -260,7 +261,7 @@ img.crew_pic{
 	height:500px;
 }
 
-.extras{
+.c_side{
 	display: inline-flex;
 	flex-flow: row wrap;
 	width: 300px;
@@ -350,12 +351,6 @@ footer p{
 }
 /* Mobile */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	body {
-		font-size: 18px;
-	}
-	img {
-		width: 100%;
-	}
 	#screen_768 {
 		display: block;
 	}

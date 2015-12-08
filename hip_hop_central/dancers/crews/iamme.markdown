@@ -1,7 +1,7 @@
 ---
 layout: crew
+permalink: /dancers/crews/iamme.html
 title: I.aM.mE
-sid: iamme
 type: crew
 image: 
   url: /img/crews/ime.jpg

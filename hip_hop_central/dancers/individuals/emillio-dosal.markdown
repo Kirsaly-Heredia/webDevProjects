@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/emillio-dosal.html
 title: Emillio Dosal
-sid: emillio-dosal
 type: individual
 image: 
   url: /img/individuals/emilio.jpg
@@ -11,11 +11,11 @@ facebook: "Emilio Dosal"
 twitter: "@IaMEmiliodosal"
 instagram: "@iamemiliodosal"
 crew: I.aM.mE
-affiliation:
-  - I.aM.mE
-  - Step Up: All In 
-  - SYTYCD
-  - ABDC Season 6/8
+affiliations:
+  - affiliation: I.aM.mE
+  - affiliation: Step Up: All In 
+  - affiliation: SYTYCD
+  - affiliation: ABDC Season 6/8
 event-image:
 ---
 

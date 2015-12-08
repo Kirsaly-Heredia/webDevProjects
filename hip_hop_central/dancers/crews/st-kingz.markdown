@@ -1,7 +1,7 @@
 ---
 layout: crew
+permalink: /dancers/crews/st-kingz.html
 title: S**t Kingz
-sid: st-kingz
 type: crew
 image: 
   url: /img/crews/stkingz.jpg

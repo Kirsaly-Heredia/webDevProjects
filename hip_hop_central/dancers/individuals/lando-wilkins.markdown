@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/lando-wilkins.html
 title: Lando Wilkins
-sid: lando-wilkins
 type: individual
 image: 
   url: /img/individuals/lando.jpg
@@ -11,9 +11,9 @@ facebook: "Lando Wilkins"
 twitter: "@LandoWilkins"
 instagram: "@landowilkins"
 crew: Mos Wanted Crew
-affiliation:
-  - Mos Wanted Crew
-  - ABDC Season 7
+affiliations:
+  - affiliation: Mos Wanted Crew
+  - affiliation: ABDC Season 7
 event-image:
 ---
 

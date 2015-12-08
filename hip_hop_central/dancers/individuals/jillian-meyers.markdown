@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/jillian-meyers.html
 title: Jillian Meyers
-sid: jillian-meyers
 type: individual
 image: 
   url: /img/individuals/jill.jpg
@@ -10,8 +10,8 @@ youtube: "JillyMeyers"
 facebook: 
 twitter: "@Jilly_Meyers"
 instagram: "@jillymeyers"
-affiliation:
-  - Movement Lifestyle
+affiliations:
+  - affiliation: Movement Lifestyle
 event-image:
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/jawn-ha.html
 title: Jawn Ha
-sid: jawn-ha
 type: individual
 image: 
   url: /img/individuals/jawn.jpg
@@ -11,10 +11,10 @@ facebook: "Jawn Ha"
 twitter: "@JawnHa"
 instagram: "@jawnha"
 crew: Mos Wanted Crew
-affiliation:
-  - Mos Wanted Crew
-  - Kinjaz
-  - ABDC Season 7
+affiliations:
+  - affiliation: Mos Wanted Crew
+  - affiliation: Kinjaz
+  - affiliation: ABDC Season 7
 event-image:
 ---
 

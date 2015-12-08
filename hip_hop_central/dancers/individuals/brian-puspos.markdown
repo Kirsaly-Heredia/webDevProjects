@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/brain-puspos.html
 title: Brian Puspos
-sid: brain-puspos
 type: individual
 image: 
   url: /img/individuals/brain.jpg
@@ -11,11 +11,11 @@ facebook: "Brian Puspos"
 twitter: "@BrianPuspos"
 instagram: "@brianpuspos"
 crew: Mos Wanted Crew
-affiliation:
-  - Mos Wanted Crew
-  - Younglions
-  - Movement Lifestyle
-  - ABDC Season 7
+affiliations:
+  - affiliation: Mos Wanted Crew
+  - affiliation: Younglions
+  - affiliation: Movement Lifestyle
+  - affiliation: ABDC Season 7
 event-image:
 ---
 

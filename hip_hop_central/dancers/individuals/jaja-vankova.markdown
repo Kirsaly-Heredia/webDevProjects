@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/jaja-vankova.html
 title: JaJa Vankova
-sid: jaja-vankova
 type: individual
 image: 
   url: /img/individuals/jaja.jpg
@@ -11,11 +11,11 @@ facebook: "Jaja Vankova"
 twitter: "@JajaVankova"
 instagram: "@jajavankova"
 crew: I.aM.mE
-affiliation:
-  - I.aM.mE
-  - SYTYCD
-  - ABDC Season 6
-  - Step Up: All In
+affiliations:
+  - affiliation: I.aM.mE
+  - affiliation: SYTYCD
+  - affiliation: ABDC Season 6
+  - affiliation: Step Up: All In
 event-image:
 ---
 

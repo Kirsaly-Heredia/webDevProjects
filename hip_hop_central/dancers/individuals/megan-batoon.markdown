@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/megan-batoon.html
 title: Megan Batoon
-sid: megan-batoon
 type: individual
 image: 
   url: /img/individuals/megb.jpg
@@ -11,9 +11,9 @@ facebook: "Megan Batoon"
 twitter: "@meganbatoon"
 instagram: "@meganbatoon"
 website: "www.meganbatoon.com"
-affiliation:
-  - World of Dance
-  - Step Up Revolution
+affiliations:
+  - affiliation: World of Dance
+  - affiliation: Step Up Revolution
 event-image:
 ---
 

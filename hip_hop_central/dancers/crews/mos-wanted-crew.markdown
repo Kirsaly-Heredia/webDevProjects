@@ -1,7 +1,7 @@
 ---
 layout: crew
+permalink: /dancers/crews/mos-wanted-crew.html
 title: Mos Wanted Crew
-sid: mos-wanted-crew
 type: crew
 image: 
   url: /img/crews/mos.jpg

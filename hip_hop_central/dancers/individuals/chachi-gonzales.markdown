@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/chachi-gonzales
 title: Chachi Gonzales
-sid: chachi-gonzales
 type: individual
 image: 
   url: /img/individuals/chachi.jpg
@@ -11,11 +11,11 @@ facebook: "Olivia Chachi Gonzales"
 twitter: "@chachigonzales"
 instagram: "@chachigonzales"
 website: "www.dotheadsbychachi.com"
-affiliation:
-  - ABDC Season 6
-  - East Los High
-  - I.aM.mE
-  - World of Dance
+affiliations:
+  - affiliation: ABDC Season 6
+  - affiliation: East Los High
+  - affiliation: I.aM.mE
+  - affiliation: World of Dance
 event-image:
 ---
 

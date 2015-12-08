@@ -1,7 +1,7 @@
 ---
 layout: crew
+permalink: /dancers/crews/super-crew.html
 title: Super Crew
-sid: super-crew
 type: crew
 image:
   url: /img/crews/sup.jpg

@@ -1,7 +1,7 @@
 ---
 layout: crew
+permalink: /dancers/crews/kinjaz.html
 title: Kinjaz
-sid: kinjaz
 type: crew
 image: 
   url: /img/crews/kinja2.jpg

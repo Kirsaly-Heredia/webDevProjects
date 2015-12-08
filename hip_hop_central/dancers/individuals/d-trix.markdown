@@ -1,7 +1,7 @@
 ---
 layout: individual
+permalink:/dancers/individuals/d-trix.html
 title: D-Trix
-sid: d-trix
 type: individual
 image: 
   url: /img/individuals/dtrix.jpg
@@ -11,9 +11,9 @@ facebook: "Dominic D-Trix Sandoval"
 twitter: "@d_TRIX"
 instagram: "@dtrixpix"
 crew: Quest Crew
-affiliation:
-  - Quest Crew
-  - ABDC Season 4/8
+affiliations:
+  - affiliation: Quest Crew
+  - affiliation: ABDC Season 4/8
 event-image:
 ---
 
