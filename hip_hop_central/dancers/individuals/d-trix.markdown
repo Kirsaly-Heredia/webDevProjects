@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/d-trix.html
+permalink: "/dancers/individuals/d-trix.html"
 title: D-Trix
 type: individual
 image: 

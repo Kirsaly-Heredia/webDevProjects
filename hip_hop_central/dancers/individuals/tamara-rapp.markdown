@@ -1,11 +1,11 @@
 ---
 layout: individual
-permalink: /dancers/individuals/tamara-rapp.html
+permalink: "/dancers/individuals/tamara-rapp.html"
 title: Tamara Rapp
 type: individual
 image: 
-	url: /img/individuals/trapp.jpg
-	alt:
+  url: "/img/individuals/trapp.jpg"
+  alt:
 youtube: ""
 facebook: "Tam Rapp"
 twitter: "@tam_rapp"

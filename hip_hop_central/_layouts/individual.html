@@ -2,7 +2,7 @@
 layout: default
 ---
 {% for profile in site.pages %}
-	{% if profile.type == 'crew' %}
+	{% if profile.type == 'individual' %}
   	{% if page.url == profile.permalink %}
 			
 			<!--breadcrumbs-->
@@ -12,12 +12,12 @@ layout: default
 	
 			<div class="container i_side ">
 				<!--image-->
-				<img class="crew_img" src=" {{profile.image.url }}" alt=" {{profile.image.alt }}">
+				<img class="individual_img" src=" {{profile.image.url }}" alt=" {{profile.image.alt }}">
 				<!--affiliations-->
 				<h3 class="box_title">Affiliations</h3>
-				<div class="affiliation">
+				<div class="affiliations_list">
 					<ul class="afil_list">{% for affiliation in profile.affiliations %}
-						<li class="affilinlist">{{affiliation.afiliation}}</li>
+						<li class="afilinlist">{{affiliation.affiliation}}</li>
 					</ul>{% endfor %}
 				</div>
 			</div>
@@ -53,8 +53,8 @@ layout: default
 				</div>
 
 				<div class="sm_combo">
-					<img class="sm" src="{{profile.crew.logo}}" alt="">
-					<p>{{profile.crew-url}}</p>
+					<img class="sm" src="{{profile.website.img}}" alt="">
+					<p>{{profile.website.url}}</p>
 				</div>
 			</div>
 		

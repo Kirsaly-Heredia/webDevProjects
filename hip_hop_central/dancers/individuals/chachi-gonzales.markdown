@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/chachi-gonzales
+permalink: "/dancers/individuals/chachi-gonzales"
 title: Chachi Gonzales
 type: individual
 image: 
@@ -10,7 +10,9 @@ youtube: "Chachi Gonzales"
 facebook: "Olivia Chachi Gonzales"
 twitter: "@chachigonzales"
 instagram: "@chachigonzales"
-website: "www.dotheadsbychachi.com"
+website: 
+  url: "www.dotheadsbychachi.com"
+  img: 
 affiliations:
   - affiliation: ABDC Season 6
   - affiliation: East Los High

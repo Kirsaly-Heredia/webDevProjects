@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/kk-harris.html
+permalink: "/dancers/individuals/kk-harris.html"
 title: KayKay Harris
 type: individual
 image: 

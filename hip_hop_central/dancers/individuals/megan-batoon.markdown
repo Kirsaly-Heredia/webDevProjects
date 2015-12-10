@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/megan-batoon.html
+permalink: "/dancers/individuals/megan-batoon.html"
 title: Megan Batoon
 type: individual
 image: 

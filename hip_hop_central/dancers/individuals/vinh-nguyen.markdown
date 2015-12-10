@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink: /dancers/individuals/vihn-nguyen.html
+permalink: "/dancers/individuals/vihn-nguyen.html"
 title: Vihn Nguyen
 type: individual
 image: 

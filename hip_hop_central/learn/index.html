@@ -1,0 +1,20 @@
+---
+layout: default
+title: Learn
+---
+{% for style in site.pages %}
+	{% if style.type == 'dance style' %}
+	
+		<!-- style information -->
+		<div class="container style">
+			<h1>{{style.title}}</h1>
+			<p>{{ content }}</p>
+			<img src="{{style.img.url}}" alt="{{style.img.alt}}">
+			<h2>tutorials</h2>
+			<div class="container">{% for video in videos%}
+				<iframe src="{{video.video}}" frameborder="0" allowfullscreen></iframe>{% endfor %}
+			</div>
+		</div>
+			
+  {% endif %}
+{% endfor %}

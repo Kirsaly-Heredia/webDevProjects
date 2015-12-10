@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/mike-song.html
+permalink: "/dancers/individuals/mike-song.html"
 title: Mike Song
 type: individual
 image: 

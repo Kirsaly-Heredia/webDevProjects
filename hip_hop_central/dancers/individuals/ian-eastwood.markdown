@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/ian-eastwood.html
+permalink: "/dancers/individuals/ian-eastwood.html"
 title: Ian Eastwood
 type: individual
 image: 

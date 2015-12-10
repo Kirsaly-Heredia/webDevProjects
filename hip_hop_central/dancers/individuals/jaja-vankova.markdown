@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/jaja-vankova.html
+permalink: "/dancers/individuals/jaja-vankova.html"
 title: JaJa Vankova
 type: individual
 image: 
@@ -15,7 +15,7 @@ affiliations:
   - affiliation: I.aM.mE
   - affiliation: SYTYCD
   - affiliation: ABDC Season 6
-  - affiliation: Step Up: All In
+  - affiliation: Step Up All In
 event-image:
 ---
 

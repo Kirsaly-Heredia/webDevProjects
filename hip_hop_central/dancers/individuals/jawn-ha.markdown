@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/jawn-ha.html
+permalink: "/dancers/individuals/jawn-ha.html"
 title: Jawn Ha
 type: individual
 image: 

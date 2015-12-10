@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/lando-wilkins.html
+permalink: "/dancers/individuals/lando-wilkins.html"
 title: Lando Wilkins
 type: individual
 image: 

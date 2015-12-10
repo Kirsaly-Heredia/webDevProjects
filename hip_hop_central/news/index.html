@@ -1,0 +1,33 @@
+---
+layout: default
+title: News
+---
+
+{% for post in site.pages %}
+	{% if post.type == 'news' %}
+		<h1>{{ Latest Updates }}</h1>
+		<div class="container news">
+			<img src="{{post.img.url}}" alt="{{post.img.alt}}">
+			<h2 class=" news_heading">{{post.title}}</h2>
+			<p>{{ content }}</p>
+		</div>
+	{% endif %}
+{% endfor %}
+
+<div class="container music">
+	<h2 class="music_heading">Music</h2>
+	<h3>Top Hits</h3>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	{% for post in site.pages %}
+		{% if post.type == 'music'%}
+			<img src="{{post.img.url}}" alt="{{post.img.alt}}">
+			<p>{{ content }}</p>
+		{% endif %}
+	{% endfor %}
+</div>

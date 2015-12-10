@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/jillian-meyers.html
+permalink: "/dancers/individuals/jillian-meyers.html"
 title: Jillian Meyers
 type: individual
 image: 

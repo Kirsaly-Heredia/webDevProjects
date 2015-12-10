@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/brain-puspos.html
+permalink: "/dancers/individuals/brain-puspos.html"
 title: Brian Puspos
 type: individual
 image: 

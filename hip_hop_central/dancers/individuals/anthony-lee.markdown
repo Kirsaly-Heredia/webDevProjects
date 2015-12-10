@@ -1,6 +1,6 @@
 ---
 layout: individual
-permalink:/dancers/individuals/anthony-lee.html
+permalink: "/dancers/individuals/anthony-lee.html"
 title: Anthony Lee
 type: individual
 image: 
