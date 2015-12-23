@@ -3,31 +3,53 @@ layout: default
 title: News
 ---
 
-{% for post in site.pages %}
-	{% if post.type == 'news' %}
-		<h1>{{ Latest Updates }}</h1>
-		<div class="container news">
-			<img src="{{post.img.url}}" alt="{{post.img.alt}}">
-			<h2 class=" news_heading">{{post.title}}</h2>
-			<p>{{ content }}</p>
-		</div>
-	{% endif %}
-{% endfor %}
+<div class="container stories">
+	<h1 class="news_heading">Archives</h1>
+	
+	<div class="story_item">
+		<img class="story_pic"src="/img/news/kinjanew.jpg" alt="">
+		<h4 class="caption"><span>KINJAZ - NEW VIDEO ##/##/##</span></h4>
+		<p class="story">Proin hendrerit, leo non ullamcorper pharetra, est turpis mattis erat, sit amet dapibus nibh libero aliquet purus. Quisque nec urna consectetur, ultricies dui non, accumsan nisl. Pellentesque aliquet efficitur est, nec tincidunt eros imperdiet in. Nullam egestas arcu quis convallis imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis eget ante neque.</p>
+	</div>
 
+	<div class="story_item">
+		<img class="story_pic"src="/img/news/jun.jpg" alt="">
+		<h4 class="caption"><span>JUN - NEW VIDEO ##/##/##</span></h4>
+		<p class="story">Proin hendrerit, leo non ullamcorper pharetra, est turpis mattis erat, sit amet dapibus nibh libero aliquet purus. Quisque nec urna consectetur, ultricies dui non, accumsan nisl. Pellentesque aliquet efficitur est, nec tincidunt eros imperdiet in. Nullam egestas arcu quis convallis imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis eget ante neque.</p>
+	</div>
+
+	<div class="story_item">
+		<img class="story_pic"src="/img/news/dojo.jpg" alt="">
+		<h4 class="caption"><span>KINJAZ DOJO ##/##/##</span></h4>
+		<p class="story">Proin hendrerit, leo non ullamcorper pharetra, est turpis mattis erat, sit amet dapibus nibh libero aliquet purus. Quisque nec urna consectetur, ultricies dui non, accumsan nisl. Pellentesque aliquet efficitur est, nec tincidunt eros imperdiet in. Nullam egestas arcu quis convallis imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis eget ante neque.</p>
+	</div>
+
+	<div class="story_item">
+		<img class="story_pic"src="/img/news/quick.jpg" alt="">
+		<h4 class="caption"><span>QUICK - NEW VIDEO ##/##/##</span></h4>
+		<p class="story">Proin hendrerit, leo non ullamcorper pharetra, est turpis mattis erat, sit amet dapibus nibh libero aliquet purus. Quisque nec urna consectetur, ultricies dui non, accumsan nisl. Pellentesque aliquet efficitur est, nec tincidunt eros imperdiet in. Nullam egestas arcu quis convallis imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis eget ante neque.</p>
+	</div>
+</div>
+
+<!---music-->
 <div class="container music">
 	<h2 class="music_heading">Music</h2>
-	<h3>Top Hits</h3>
-	<ul>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
+	<h3 class="music_subheading">Top Hits</h3>
+	<ul class="tophits">
+		<li>1. Hello - Adele</li>
+		<li>2. Sorry - Juston Bieber</li>
+		<li>3. Hotline Bling - Drake</li>
+		<li>4. What Do You Mean? - Justin Bieber</li>
+		<li>5. Love Yourslef - Justin Beiber</li>
+		<li>6. The Hills - The Weekend</li>
+		<li>7. Stiches - Shawn Mendes</li>
+		<li>8. Here - Alessia Cara</li>
+		<li>9. Same Old Love - Selena Gomez</li>
+		<li>10. Like I'm Gonna lose You - Meghan Trainor Featuring John Legend</li>
 	</ul>
-	{% for post in site.pages %}
-		{% if post.type == 'music'%}
-			<img src="{{post.img.url}}" alt="{{post.img.alt}}">
-			<p>{{ content }}</p>
-		{% endif %}
-	{% endfor %}
+	
+	<img class="chris" src="/img/news/chris.jpg" alt="">
+	<p>Chris Brown's 7th studio album Royalty released december 18, 2015. Now on sale.</p>
+	<img class="justin" src="/img/news/justin.jpg" alt="">
+	<p>Justin Bieber boasts 17 songs on the Dec. 5 Hot 100, marking the most titles that any artist has placed on the chart in a single week. Beating out the Beatles and Drake.</p>
 </div>

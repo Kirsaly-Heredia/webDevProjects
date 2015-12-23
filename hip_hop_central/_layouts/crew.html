@@ -21,38 +21,40 @@ layout: default
 				<!--core members-->
 				<h3 class="box_title">Core Members</h3>
 				<div class="members_list">
-					<ul class="mem_list">{% for member in profile.members %}
-						<li class="meminlist">{{member.member}}</li>
-					</ul>{% endfor %}
+					<ul class="mem_list">
+						{% for member in profile.members %}
+							<li class="meminlist">{{member.member}}</li>
+						{% endfor %}
+					</ul>
 				</div>
 			
 				<!--upcoming appearances-->
 				<h3 class="box_title">Upcoming Appearances</h3>
-				<img class="events_img" src="{{profile.event-image}}" alt="">
+				<img class="events_img_c" src="{{profile.event-image}}" alt="">
 
 				<!--social media-->
 				<div class="container c_social">
-					<div class="sm_combo">
+					<div class="sm_combo_c">
 						<img class="sm" src="{{site.youtube}}" alt="">
 						<p>{{profile.youtube}}</p>
 					</div>
 
-					<div class="sm_combo">
+					<div class="sm_combo_c">
 						<img class="sm" src="{{site.facebook}}" alt="">
 						<p>{{profile.facebook}}</p>
 					</div>
 
-					<div class="sm_combo">
+					<div class="sm_combo_c">
 						<img class="sm" src="{{site.twitter}}" alt="">
 						<p>{{profile.twitter}}</p>
 					</div>
 
-					<div class="sm_combo">
+					<div class="sm_combo_c">
 						<img class="sm" src="{{site.instagram}}" alt="">
 						<p>{{profile.instagram}}</p>
 					</div>
 
-					<div class="sm_combo">
+					<div class="sm_combo_c">
 						<img class="sm" src="{{profile.crew.logo}}" alt="">
 						<p>{{profile.crew-url}}</p>
 					</div>

@@ -36,10 +36,8 @@ span{
 }
 
 
-/*header*/
+/*-------------header-------------*/
 header{
-	position: fixed;
-	z-index: 1;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -47,7 +45,7 @@ header{
 	background-color: #231F20;
 }
 
-ul {
+.main_nav {
 	text-align: center;
 	position: absolute;
     top: 45px;
@@ -73,70 +71,70 @@ a:hover, a:active{
 	text-decoration: none;
 }
 
+a.crew_name{
+	width: 200px;
+}
+
+
+a.dancer_name{
+	width: 350px;
+}
+
 a.crew_name, a.dancer_name{
-	font-family: 'graduate' , sans-serif;;
+	font-family: 'graduate' , sans-serif;
+	font-size: 20px; text-align: center;
 	color: #000;
 }
 
 .logo {
 	position:absolute;
-	top: 0;
-	left: 0;
-	height: 100px;
-	width: 200px;
+	top: 0; left: 0;
+	height: 100px; width: 200px;
 }
 
 .search_box{
 	margin-left:950px;
 	margin-right: 0px;
-	top: 150px;
-	left: 500px;
-	width: 250px;
-	height: 30px;
+	top: 150px; left: 500px;
+	width: 250px; height: 30px;
 	background-color: #BCBEC0;
 	border-radius: 10px;	
 }
 
 .mag_green {
     position: absolute;
-    top: 10px;
-    right: 44px;
-    width: 40px;
-    height: 30px;
+    top: 10px; right: 44px;
+    width: 40px; height: 30px;
     background-color: #387747;
     border-radius: 10px;
 }
 
 .mag_pic{
-	top: 150px;
-	left: 700px;
-	height:30px;
-	width: 35px;
+	top: 150px; left: 700px;
+	height:30px; width: 35px;
 }
 
 
-
+/*-----------------home page-----------------*/
 /*slide banner*/
 .slide{
-	position: relative;
-	top: 100px;
 	width: 100%;
-	margin-bottom: 70px;
+	margin-bottom: 10px;
 }
 
-.slide_butttons{
+.slide_buttton_nav{
     position: relative;
     width: 118px;
-    bottom: 20px;
-    left: 600px;
+    z-index: 1;
+    top: -70px; left: 580px;
 }
 
-.slide_button_nav{
+.slide_button{
 	width: 25px;
-    height: 25px;
-    background-color: #FFF;
-    border-radius: 50px;
-    display: inline-block;
+  height: 25px;
+  background-color: #FFF;
+  border-radius: 50px;
+  display: inline-block;
 }
 
 /*featured dancer and current news*/
@@ -144,48 +142,38 @@ a.crew_name, a.dancer_name{
 	display: inline-flex;
 	flex-flow: row wrap;
 	width: 970px;
-	margin-left: 30px;
-	margin-bottom: 25px;
+	margin-left: 30px; margin-bottom: 25px;
 	justify-content: space-between;
 }
 
 .twitter{
 	display: inline-flex;
-	width: 300px;
-	height: 750px;
+	width: 300px; height: 750px;
 }
 .fd_title, .news_heading{
-	width: 970px;
-	height: 75px;
+	width: 970px; height: 75px;
 	text-align: center;
 }
 
 .fd_img{
-	width: 225px;
-	height: 225px;
+	width: 225px; height: 225px;
 }
 
 .fd_text{
-	width: 700px;
-	height: 225px;
+	width: 700px; height: 225px;
 }
 
 .news_item{
-	width: 265px;
-	height: 400px;
+	width: 265px; height: 400px;
 }
 .news_img{
-	width: 260px;
-	height: 160px;
+	width: 260px; height: 160px;
 }
 
-/* dancers page */
+/* ------------------dancers page------------------ */
 .individuals, .crews{
-	position: relative;
-	top: 100px;
 	display: flex;
-	width: 1200px;
-	height: 900px;
+	width: 1200px; height: 900px;
 	flex-flow: row wrap;
 	justify-content: space-around;
 }
@@ -204,8 +192,7 @@ div.dancer{
 }
 
 img.dancer_pic{
-	width: 200px;
-	height:200px;
+	width: 200px; height:200px;
 }
 
 div.crew{
@@ -213,17 +200,16 @@ div.crew{
 }
 
 img.crew_pic{
-	width:350px;
-	height: 200px
+	width:350px; height: 200px
 }
 
-.dancer_name, .crew_name{
-	text-align: center;
-	font-family: 'Glegoo', serif;
-	font-size: 20px;
+/* ---------crew pages and individual pages---------*/
+.breadcrumbs{
+	width: 500px;
+	position: relative;
+	top: 25px; left: 15px;
 }
 
-/*crew pages and individual pages*/
 .mem_list, .afil_list{
 	list-style-type: none;
 	padding: 0px;
@@ -240,17 +226,13 @@ img.crew_pic{
 }
 
 /*info*/
-.title{
-	position: relative;
-	top: 100px;
-}
-
 .c_main{
 	display: inline-flex;
 	flex-flow: row wrap;
 	width: 900px;
 	position: relative;
-	top: 100px;
+	top: 0px;
+	margin-left: 50px;
 }
 
 .crew_img, .crew_bio{
@@ -261,34 +243,33 @@ img.crew_pic{
 	height:500px;
 }
 
+.individual_img{
+	height:400px;
+}
 
 .i_side{
 	display: inline-flex;
 	flex-flow: row wrap;
-	width: 400px;
+	width: 300px;
 	position: relative;
-	top: 100px;
+	top: 0px;
+	margin-left: 70px;
 }
 
 .i_main{
 	display: inline-flex;
 	flex-flow: row wrap;
 	width: 900px;
-	position: relative;
-	top: 100px;
 }
 
 .individual_img{
-	width: 300px;
-	height: 300px;
+	width: 300px; height: 250px;
 }
 
 .c_side{
 	display: inline-flex;
 	flex-flow: row wrap;
-	width: 400px;
-	position: relative;
-	top: 100px;
+	width: 330px;
 }
 
 .box_title{
@@ -298,6 +279,10 @@ img.crew_pic{
 	color: #FFF;
 	margin:0px;
 	padding: 15px 0px;
+}
+
+.indi{
+	margin-top: 30px;
 }
 
 /*members*/
@@ -320,9 +305,13 @@ img.crew_pic{
 	width: 300px;
 }
 
-.events_img{
-	width:300px;
-	height: 275px;
+.events_img_c{
+	width:300px; height: 300px;
+}
+
+
+.events_img_i{
+	width:270px; height: 270px;
 }
 
 /*social media*/
@@ -331,34 +320,89 @@ img.crew_pic{
 	flex-flow: row wrap;
 	justify-content: space-around;
 	width: 300px;
+	margin-top: 20px;
 }
 
-.c_social{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	width: 1300px;
+.sm_combo_c{
+	width: 300px;
 }
 
-.sm_combo{
-	width: 250px;
+.sm_combo_i{
+	width: 270px;
 	display: inline-block;
 }
+
 .sm{
-	width: 30px;
-	height: 30px;
+	width: 30px; height: 30px;
+	margin-right: 10px;
 	display: inline;
 	float: left;
 }
 
-/*footer*/
+/*--------------news--------------*/
+.stories{
+	display: inline-flex;
+	flex-flow: row wrap;
+	width: 900px;
+	justify-content: space-around;
+}
+.news_heading{
+	width: 800px;
+}
+.story_item{
+	width: 400px;
+}
+
+.story_pic{
+	width:400px; height: 200px;
+}
+
+.caption{
+	text-align: center;
+	background-color: #231F20;
+	width: 400px; height: 25px;
+	padding-top: 3px;
+}
+
+/*music bar*/
+.music{
+	display: inline-flex;
+	flex-flow: row wrap;
+	width: 400px;
+	background-color: #E0DCDC;
+}
+
+.music_heading{
+	width: 400px;
+	text-align: center;
+	background-color: #231F20;
+	color: #FFF;
+	padding: 15px 0px;
+}
+
+.tophits{
+	list-style-type: none;
+	font-size: 18px;
+	line-height: 29px;
+}
+
+.chris{
+	width: 200px; height: 200px;
+	margin: 0 auto;
+}
+
+.justin{
+	width: 300px; height: 200px;
+	margin: 0 auto;
+}
+
+/*-------------footer-------------*/
 footer{
 	background-color: #231F20;
 	height: 70px;
 	padding: 20px 0px;
 	position: relative;
-	bottom: 0px;
-	left: 0px;
+	bottom: 0px; left: 0px;
 }
 
 footer p{

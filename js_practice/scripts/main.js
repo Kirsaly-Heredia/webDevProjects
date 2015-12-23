@@ -1,4 +1,3 @@
-
 //Chris Brown Album
 var cButton = document.querySelector('#cButton');
 var chrisOL = document.querySelector('#chrisOL');

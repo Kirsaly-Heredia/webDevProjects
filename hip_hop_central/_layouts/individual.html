@@ -14,49 +14,47 @@ layout: default
 				<!--image-->
 				<img class="individual_img" src=" {{profile.image.url }}" alt=" {{profile.image.alt }}">
 				<!--affiliations-->
-				<h3 class="box_title">Affiliations</h3>
+				<h3 class="box_title indi">Affiliations</h3>
 				<div class="affiliations_list">
 					<ul class="afil_list">{% for affiliation in profile.affiliations %}
 						<li class="afilinlist">{{affiliation.affiliation}}</li>
 					</ul>{% endfor %}
 				</div>
+				<!--upcoming appearances-->
+				<h3 class="box_title">Upcoming Appearances</h3>
+				<img class="events_img_i" src="{{profile.event-image}}" alt="">
 			</div>
 
 			<div class="container i_main">
 				<!--crew bio-->
 				<p class="crew_bio">{{ content }}</p>
-				<!--upcoming appearances-->
-				<h3>Upcoming Appearances</h3>
-				<img src="{{dancer.event-image}}" alt="">
-			</div>
-		
-			<!--social media-->
-			<div class="container social">
-				<div class="sm_combo">
+				
+				<!--social media-->
+				<div class="sm_combo_i">
 					<img class="sm" src="{{site.youtube}}" alt="">
 					<p>{{profile.youtube}}</p>
 				</div>
 
-				<div class="sm_combo">
+				<div class="sm_combo_i">
 					<img class="sm" src="{{site.facebook}}" alt="">
 					<p>{{profile.facebook}}</p>
 				</div>
 
-				<div class="sm_combo">
+				<div class="sm_combo_i">
 					<img class="sm" src="{{site.twitter}}" alt="">
 					<p>{{profile.twitter}}</p>
 				</div>
 
-				<div class="sm_combo">
+				<div class="sm_combo_i">
 					<img class="sm" src="{{site.instagram}}" alt="">
 					<p>{{profile.instagram}}</p>
 				</div>
 
-				<div class="sm_combo">
+				<div class="sm_combo_i">
 					<img class="sm" src="{{profile.website.img}}" alt="">
 					<p>{{profile.website.url}}</p>
 				</div>
-			</div>
+			</div>				
 		
 		{% endif %}
   {% endif %}
